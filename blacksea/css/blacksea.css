@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower|Montserrat');  
+/* font-family: 'Indie Flower', cursive; */
+/* font-family: 'Montserrat', sans-serif; */
+
+html, body, h1, h2, p, div, header, span, footer, iframe{
+    margin: 0;
+    padding: 0;
+}
+
+
+.wrapperr{
+    width: 1024px;
+    margin:0 auto;
+    height: inherit;
+}
+header{
+    background-color: rgb(38, 109, 91);
+    height: 80px;
+    width: 1024;
+    margin: 0 auto; 
+
+}
+header div p{
+    display:inline-block;
+    color: white;
+    float: left;
+    margin-right: 485px;
+    margin-top: 23px;
+    font-family: 'Indie Flower', cursive;
+    font-size: 25px;
+    
+}
+header div a{
+    text-decoration: none;
+    color: white;
+    display:block;
+    float: left;
+    margin-right: 35px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    margin-top: 23px;
+    
+}
+a:hover{
+    color:blue;
+}
+
+/********************************СЕКТОР №1*****************************************/
+
+.one{
+    height: 250px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    padding: 120px;
+    background-image: url('../img/img1.jpg');
+    background-size: cover;
+}
+
+h1{
+    color:white;
+    padding: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+    font-weight: 300;
+}
+
+button {
+    display: inline-block;
+    background-color: transparent;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size:25px;
+    padding:7px;
+}
+
+button a{
+    text-decoration: none;
+    color: white;
+}
+
+/********************************СЕКТОР №2**************************************/
+.two{
+    height: 250px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    padding: 80px;
+    background-color: rgb(217, 243, 243);
+}
+
+.icon {
+    width: 35px;
+    margin-right: 60px;
+}
+.icons{
+    text-decoration: none;
+}
+
+/**********************************СЕКТОР№3***********************************/
+ 
+.three{
+    height: 300px;
+    text-align: center;
+    padding: 130px;
+    background-color: rgb(60, 185, 102);
+    
+}
+
+.section3 {
+    width: 150px;
+}
+
+.quote{
+    font-family: 'Montserrat', sans-serif;  
+    color:white;
+    font-size: 14px;
+    font-style: italic; 
+    
+
+}
+span{
+    font-size: 28px;
+    font-weight: 700;
+    color: white;
+    vertical-align:top;
+}
+/**********************************СЕКТОР№4***********************************/
+
+.for{
+    height: 500px;
+    text-align: center;
+}
+
+iframe{
+    width: 100%;
+    height: inherit;
+}
+
+footer{
+    background-color: rgb(60, 185, 102);
+    height: 30px;
+    text-align: center;
+    color:red;
+    padding: 18px;
+}
+
