@@ -141,6 +141,16 @@ iframe{
 form{
     padding: 150px;
     text-align: center;
+    
+    
+}
+
+.buttontwo{
+    background: #39718d; /* Цвет фона */
+    border: 1px solid #7a7b7e; /* Параметры рамки */
+    width: 180px; /* Ширина кнопки */
+    height: 180px; /* Высота */
+    border-radius: 120px;
 }
 
 
